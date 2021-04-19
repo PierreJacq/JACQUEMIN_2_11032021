@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="styles.css" />
         <link href="fontawesome/css/all.css" rel="stylesheet">
         <title>Reservia - Vos vacances de rêve</title>
     </head>
@@ -33,28 +33,26 @@
                     
                     <div class="filtre">
                         <i class="fas fa-money-bill-wave"></i>
-                        <a href ="#" class="textefiltre">Économique</a>
-                        <!--rajouter des divs ici-->
+                        <span>Économique </span>
                     </div>
 
                     <div class="filtre">
                         <i class="fas fa-child"></i>
-                        <a href ="#" class="textefiltre">Familial</a>
+                        <span>Familial</span>
                     </div>
 
                     <div class="filtre">
                         <i class="fas fa-heart"></i>
-                        <a href ="#" class="textefiltre">Romantique</a>
+                        <span>Romantique</span>
                     </div>
 
                     <div class="filtre">
                         <i class="fas fa-dog"></i>
-                        <a href ="#" class="textefiltre">Animaux autorisés</a>
+                        <span>Animaux autorisés</span>
                     </div>
                 </div>
 
-                <i class="fas fa-info"></i><span>Plus de 500 logements sont disponibles dans cette ville</span> <!-- Question : Peut-on gérer ce problème de retour à la ligne en CSS facilement ? -->
-                <!--Vérifier si j'ai pas d'autres <p> à remplacer par des spans-->
+                <i class="fas fa-info"></i><span>Plus de 500 logements sont disponibles dans cette ville</span> 
                     
             </div>
 
@@ -67,7 +65,7 @@
                     <div id="conteneurcartes">
 
                         <div class="carte">
-                            <div class="imagecarte"></div>
+                            <div class="imagecarte1"></div>
                             <div class="infocarte">
                                 <h3>Auberge la Cannebière</h3>
                                 <p>Nuit à partir de <strong>25€</strong></p> 
@@ -76,15 +74,13 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
-                                    <i class="fas fa-star gris"></i>
-                                    <!-- Comme faire ici pour créer une classe puisque la syntaxe me la prend déjà :( Je ne sais pas comment le mettre en gris du coup 
-                                    Solution possible bleu par défaut, puis rajouter une class:-->
+                                    <i class="fas fa-star gris" ></i>
                                 </div>
                             </div>                            
                         </div>
 
                         <div class="carte">
-                            <div class="imagecarte"></div>
+                            <div class="imagecarte2"></div>
                             <div class="infocarte">
                                 <h3>Hôtel du port</h3>
                                 <p>Nuit à partir de 52<strong>€</strong></p>
@@ -94,16 +90,76 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
-                                    
                                 </div>
                             </div>                            
                         </div>
-                        
+
+                        <div class="carte">
+                            <div class="imagecarte3"></div>
+                            <div class="infocarte">
+                                <h3>Hôtel les mouettes</h3>
+                                <p>Nuit à partir de 76<strong>€</strong></p>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star gris"></i>
+                                </div>
+                            </div>                            
+                        </div>
+
+                        <div class="carte">
+                            <div class="imagecarte4"></div>
+                            <div class="infocarte">
+                                <h3>Hôtel de la mer</h3>
+                                <p>Nuit à partir de 46<strong>€</strong></p>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star gris"></i>
+                                    <i class="fas fa-star gris"></i>
+                                </div>
+                            </div>                            
+                        </div>
+
+                        <div class="carte">
+                            <div class="imagecarte5"></div>
+                            <div class="infocarte">
+                                <h3>Auberge le Panier</h3>
+                                <p>Nuit à partir de <strong>23€</strong></p>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star gris"></i>
+                                </div>
+                            </div>                            
+                        </div>
+
+                        <div class="carte">
+                            <div class="imagecarte6"></div>
+                            <div class="infocarte">
+                                <h3>Hôtel chez Amina</h3>
+                                <p>Nuit à partir de 96<strong>€</strong></p>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>                            
+                        </div>
+
                     </div>
 
                     <a id="afficherplus" href="#">Afficher plus</a>                
                 </section>
-                
+
+                <!--POPULAIRES-------------------------------------------------------->
                 <aside>
                     <div id="titrepopulaire">
                         <h2>Les plus populaires</h2>
@@ -112,23 +168,129 @@
 
                     <div id="conteneurpopulaires">
 
+                        <div class="cartepop">
+                            <div class="cartepop1"></div>
+                            <div class="infocartepop">
+                                <h3>Hôtel Le soleildu matin</h3>
+                                <p>Nuit à partir de 128<strong>€</strong></p>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>                            
+                        </div>
+
+                        <div class="cartepop">
+                            <div class="cartepop2"></div>
+                            <div class="infocartepop">
+                                <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                                <p>Nuit à partir de 128<strong>€</strong></p>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star gris"></i>
+                                </div>
+                            </div>                            
+                        </div>
+
+                        <div class="cartepop">
+                            <div class="cartepop3"></div>
+                            <div class="infocartepop">
+                                <h3>Hôtel Tout bleu et Blanc</h3>
+                                <p>Nuit à partir de 128<strong>€</strong></p>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star gris"></i>
+                                </div>
+                            </div>                            
+                        </div>
+
                     </div>
-
-
-
                 </aside>
-
             </section>
 
             <!--ACTIVITES--------------------------------------------------------->
-            <section id="activités">
+            <section id="activites">
+                <h2>Activités à Marseille</h2>
+                <div id="conteneur activites">
 
+                    <div class="activite">
+                        <div id="imgact1"></div>
+                        <div class="titreact">
+                            <h3>Vieux port</h3>
+                        </div>
+                    </div>
+
+                    <div class="activitex2">
+                        <div class="activite">
+                            <div id="imgact2"></div>
+                            <div class="titreact">
+                                <h3>Fort de Pomègues</h3>
+                            </div>
+                        <div class="activite">
+                            <div id="imgact3"></div>
+                            <div class="titreact">
+                                <h3>Iles du Frioul</h3>
+                            </div>
+                    </div>
+
+                    <div class="activite">
+                        <div id="imgact4"></div>
+                        <div class="titreact">
+                            <h3>Parc National des Calanques</h3>
+                        </div>
+                    </div>
+
+                    <div class="activitex2">
+                        <div class="activite">
+                            <div id="imgact5"></div>
+                            <div class="titreact">
+                                <h3>Notre-Dame-de-la-Garde</h3>
+                            </div>
+                        <div class="activite">
+                            <div id="imgact6"></div>
+                            <div class="titreact">
+                                <h3>parc Longchamp</h3>
+                            </div>
+                    </div>
+                </div>
 
             </section>
 
             <!--FOOTER------------------------------------------------------------>
             <footer>
+                <div class="blocfooter">
+                    <h3>A propos</h3>
+                    <ul>
+                        <li><a href="#">Fonctionnement du site</a></li>
+                        <li><a href="#">Conditions générales de vente</a></li>
+                        <li><a href="#">Données et confidentialité</a></li>
+                    <ul>
+                </div>
 
+                <div class="blocfooter">
+                    <h3>Nos hébergements</h3>
+                    <ul>
+                        <li><a href="#">Charte qualité</a></li>
+                        <li><a href="#">Soumettre votre hôtel</a></li>
+                    <ul>
+                </div>
+
+                <div class="blocfooter">
+                    <h3>Assistance</h3>
+                    <ul>
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    <ul>
+                </div>
             </footer>
 
 
