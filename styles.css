@@ -1,9 +1,169 @@
+/*---------------ELEMENTS PRINCIPAUX ------------------------------------------------------*/
+body{
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-top: 0px;
+    
+    
+}
+
+#blocpage{
+    width: 90%;
+    max-width: 1200px;
+    margin:auto;
+
+}
+
+@media all and (max-width: 768px){
+    #blocpage{
+        width: 95%;
+        margin:auto;
+    }
+}
+
+
+/*---------------HEADER -------------------------------------------------------------------*/
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.logo{
+    margin: 15px auto 0 0;
+}
+
+header ul{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+header li{
+    margin-right: 25px;
+    
+}
+
+header a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    padding-top: 30px;
+
+}
+
+.menu a{
+    border-top: 1px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.menu a:hover{
+    border-top: 1px solid #0065FC;
+    color:#0065FC;
+}
+
+#inscription a{
+    border-top: 1px solid transparent;
+    color:#0065FC;
+    font-weight: bold;
+}
+
+
+#inscription a:hover{
+    color: gray;
+}
+
+@media all and (max-width: 768px){
+    header{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-basis: 100%;
+        width: 100%;
+        order: 3;
+    }
+
+    header ul{
+        justify-content: space-evenly;
+        padding: 0;
+        margin: auto;
+    }
+
+    .menu{
+        flex:auto;
+        text-align: center;
+        font-size: larger;
+        margin:auto;        
+    }
+
+    .menu a{
+        padding-bottom: 15px;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    .menu a:hover{
+        border-top: 1px solid transparent;
+        border-bottom: 3px solid #0065FC;
+    }
+
+
+
+
+
+
+/*---------------RECHERCHE ----------------------------------------------------------------*/
+
+
+/*---------------HEBERGEMENT --------------------------------------------------------------*/
+
+
+/*---------------POPULAIRES ---------------------------------------------------------------*/
+
+
+/*---------------ACTIVITES ----------------------------------------------------------------*/
+
+
+/*---------------FOOTER -------------------------------------------------------------------*/
+
+
+/*---------------MEDIA QUERIES ------------------------------------------------------------*/
+
+
+/*---------------EMBELISSEMENT ------------------------------------------------------------*/
+
+
+/*---------------CSS PICTOS FONTAWESOME----------------------------------------------------*/
+.fa-money-bill-wave{
+    color:#0065FC;
+}
+
+.fa-child{
+    color:#0065FC;
+}
+
+.fa-heart{
+    color:#0065FC;
+}
+
+.fa-dog{
+    color:#0065FC;
+}
+
+.fa-info{
+    color:#0065FC;
+}
 
 .fa-star {
-    color: blue;
+    color: #0065FC;
     
 }
 .fa-star.gris{
-    color: gray;
-
-}
+    color: rgb(187, 187, 187);}
