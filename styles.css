@@ -113,7 +113,7 @@ header a{
         border-top: 1px solid transparent;
         border-bottom: 3px solid #0065FC;
     }
-
+}
 
 
 
@@ -163,7 +163,8 @@ header a{
 
 .fa-star {
     color: #0065FC;
-    
 }
+
 .fa-star.gris{
-    color: rgb(187, 187, 187);}
+    color:rgb(187, 187, 187);
+}
