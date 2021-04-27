@@ -34,32 +34,39 @@
             <div id="champrecherche">
                 <i class="fas fa-map-marker-alt"></i> 
                 <input type ="text" name="rechercheville" id="rechercheville" value="Marseille,France"/>
-                <button>Rechercher</button> 
+                <button id="cache">
+                    <span>Rechercher</span>
+                    <i class="fas fa-search"></i>
+                </button> 
             </div>
             
             <!--FILTRES--------------------------------------------------------->
 
-            <div id="lesfiltres">                                 
-                <h2>Filtres</h2>  
+            <div id="filtresup">
+                
+                <h2>Filtres</h2> 
 
-                <div class="filtre">
-                    <i class="fas fa-money-bill-wave"></i>
-                    <span>Économique </span>
-                </div>
+                <div id="lesfiltres">                                 
+                    
+                    <div class="filtre">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span>Économique </span>
+                    </div>
 
-                <div class="filtre">
-                    <i class="fas fa-child"></i>
-                    <span>Familial</span>
-                </div>
+                    <div class="filtre">
+                        <i class="fas fa-child"></i>
+                        <span>Familial</span>
+                    </div>
 
-                <div class="filtre">
-                    <i class="fas fa-heart"></i>
-                    <span>Romantique</span>
-                </div>
+                    <div class="filtre">
+                        <i class="fas fa-heart"></i>
+                        <span>Romantique</span>
+                    </div>
 
-                <div class="filtre">
-                    <i class="fas fa-dog"></i>
-                    <span>Animaux autorisés</span>
+                    <div class="filtre">
+                        <i class="fas fa-dog"></i>
+                        <span>Animaux autorisés</span>
+                    </div>
                 </div>
             </div>
 
@@ -186,7 +193,7 @@
                             <div class="infocartepop">
                                 <h3>Hôtel Le soleil du matin</h3>
                                 <p>Nuit à partir de 128<strong>€</strong></p>
-                                <div class="etoiles">
+                                <div class="stars">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -201,7 +208,7 @@
                             <div class="infocartepop">
                                 <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                                 <p>Nuit à partir de 71<strong>€</strong></p>
-                                <div class="etoiles">
+                                <div class="stars">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -216,7 +223,7 @@
                             <div class="infocartepop">
                                 <h3>Hôtel Tout bleu et Blanc</h3>
                                 <p>Nuit à partir de 68<strong>€</strong></p>
-                                <div class="etoiles">
+                                <div class="stars">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -270,9 +277,11 @@
                 </div>
 
             </section>
-
-            <!--FOOTER------------------------------------------------------------>
-            <footer>
+        </div>
+        
+        <!--FOOTER------------------------------------------------------------>
+        <footer>
+            <div id="foooter">
                 <div class="blocfooter">
                     <h3>A propos</h3>
                     <ul>
@@ -297,11 +306,8 @@
                         <li><a href="#">Nous contacter</a></li>
                     <ul>
                 </div>
-            </footer>
-
-
-
-        </div>
+            </div>
+        </footer>
     </body>
 
 </html>
