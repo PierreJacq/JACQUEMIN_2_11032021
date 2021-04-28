@@ -987,6 +987,22 @@ footer li a{
 
 /*---------------EMBELISSEMENT ------------------------------------------------------------*/
 
+.carte:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.cartepop:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.activite:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+
 /*---------------IMAGES--------------------------------------------------------------------*/
 
 @media screen and (max-width: 767px){
