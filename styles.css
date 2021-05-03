@@ -4,8 +4,6 @@ body{
     font-weight: normal;
     font-style: normal;
     box-sizing:border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     margin-top: 0px;
     
     
@@ -1055,9 +1053,6 @@ footer li a{
 
 }
     
-
-
-
 /*---------------CSS PICTOS FONTAWESOME----------------------------------------------------*/
 .fa-money-bill-wave{
     color:#0065FC;
